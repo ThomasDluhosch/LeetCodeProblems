@@ -1,11 +1,12 @@
-package Arrays_and_Hashing;/*
+package Arrays_and_Hashing;
+import java.util.HashSet;
+
+/*
     LeetCode Problem 217
     Given an integer array 'nums', return 'true' if any value appears at least twice in
     the array, and return 'false' if every element is distinct.
     -> time complexity: O(n)
  */
-
-import java.util.HashSet;
 
 public class ContainsDuplicate {
     public static boolean containsDuplicate(int[] nums){
